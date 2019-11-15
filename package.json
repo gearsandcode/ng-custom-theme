@@ -1,10 +1,6 @@
 {
   "name": "ng-custom-theme",
   "version": "0.0.0",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gearsandcode/ng-custom-theme.git"
-  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

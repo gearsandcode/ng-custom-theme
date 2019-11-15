@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "extractCss": true,
             "outputPath": "dist/ng-custom-theme",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -29,24 +30,24 @@
             "styles": [
               "src/styles.scss",
               {
-                "input": "src/assets/pink-grey.css",
+                "input": "src/assets/custom-themes/pink-grey.scss",
                 "lazy": true,
-                "bundleName": "pink-grey"
+                "bundleName": "assets/pink-grey"
               },
               {
-                "input": "src/assets/purple-green.css",
+                "input": "src/assets/custom-themes/purple-green.scss",
                 "lazy": true,
-                "bundleName": "purple-green"
+                "bundleName": "assets/purple-green"
               },
               {
-                "input": "src/assets/indigo-pink.css",
+                "input": "src/assets/custom-themes/indigo-pink.scss",
                 "lazy": true,
-                "bundleName": "indigo-pink"
+                "bundleName": "assets/indigo-pink"
               },
               {
-                "input": "src/assets/deeppurple-amber.css",
+                "input": "src/assets/custom-themes/deeppurple-amber.scss",
                 "lazy": true,
-                "bundleName": "deeppurple-amber"
+                "bundleName": "assets/deeppurple-amber"
               }
             ],
             "scripts": []
